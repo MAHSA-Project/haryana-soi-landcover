@@ -1,0 +1,21 @@
+{
+  "note": "To reproduce the published raster bit-for-bit, place the sample into the native grid and warp it onto the output grid below. GDAL's approximate coordinate transformer depends on the extents being warped; warping the sample on its own changes about 0.2% of pixels at class boundaries.",
+  "native_grid": {
+    "crs": "EPSG:4326",
+    "west": 74.90102500451744,
+    "north": 29.634016982181752,
+    "res_deg": 3.3e-05,
+    "width": 7346,
+    "height": 6562,
+    "sample_col_off": 2735,
+    "sample_row_off": 2460
+  },
+  "output_grid": {
+    "crs": "EPSG:32643",
+    "west": 490155.02521076775,
+    "north": 3278236.372485227,
+    "res_m": 4.0,
+    "width": 6000,
+    "height": 6000
+  }
+}
